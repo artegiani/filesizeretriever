@@ -7,7 +7,7 @@
 #include <string.h>
 #include <malloc.h>
 #include "itoa.c"
-#define PORT 8080
+#define PORT 8088
 int main(int argc, char const *argv[])
 {
     int server_fd, new_socket, valread;

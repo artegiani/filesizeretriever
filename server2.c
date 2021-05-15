@@ -115,6 +115,7 @@ int main(int argc, char const *argv[])
 			itoa (res, sender);
 			printf("%s", sender);
 			send(new_socket, sender, strlen(sender),0);
+			free(sender);
         fclose(fp);
 	}
 	else{

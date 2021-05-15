@@ -60,7 +60,7 @@ int main(int argc, char const *argv[])
 
     	char * welcome = "Welcome to Remote File Size Retriever, Please Insert File Path:\n";
 	char * insert_length = "\n Insert File Path Character Length\n";
-	char * come_back= "\nPlease, Feel Free to Come Back Again!\n";
+	char * come_back= "\nPlease, Feel Free to Come Back Again!\n Remember To Visit Us At https://github.com/artegiani/filesizeretriever \n";
 	
 	send(new_socket, welcome, strlen(welcome),0);
 	//resetting the buffers each loop to avoid segmentation fault
